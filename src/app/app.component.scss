@@ -1,0 +1,56 @@
+
+body {
+  background-color: #111D25;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.user-select {
+  background-color: #3D505E;
+  padding: 5px;
+}
+
+.user-select img {
+  width: 35px;
+  height: 35px;
+}
+
+.bg-dark {
+  background-color: #1E2A32!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #999999;
+}
+
+.menu-option {
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.menu-option.active {
+  color: rgb(110, 226, 116);
+  border-bottom: 3px solid rgb(83, 248, 92);
+
+}
+
+#chats {
+
+}
+
+#contacts {
+  display: none;
+  background-color: red;
+}
+
+
+

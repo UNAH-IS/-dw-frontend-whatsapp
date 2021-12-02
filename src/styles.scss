@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+  background-color: #111D25;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
